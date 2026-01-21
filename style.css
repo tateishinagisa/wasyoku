@@ -63,7 +63,7 @@ img.logo {
 .key{
   height: 756px;
   width: 100%;
-  background-image:url("/株式会社尾佐知/img/background.jpg");
+  background-image:url("background.jpg");
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -71,7 +71,7 @@ img.logo {
 /* .slider-items {
 
   width:100%;
-  background-image: url(img/background.jpg);
+  background-image: url(background.jpg);
   background-size: cover;
 
 }
@@ -117,13 +117,13 @@ img.logo {
   writing-mode: vertical-rl;
   align-items: center;
   justify-content:center;
-  background-image: url(/株式会社尾佐知/img/philosofy.png);
+  background-image: url(philosofy.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .teikyorinen {
-  background-image: url(/株式会社尾佐知/img/manaita.png);
+  background-image: url(manaita.png);
   background-size: cover;
   display:flex;
   flex-direction: column;
