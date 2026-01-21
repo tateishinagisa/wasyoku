@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Yuji+Syuku&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Yuji Syuku";
+  width: 100%
+}
+
+a {
+  text-decoration-line: none;
+}
+
+header {
+  /* height: auto; */
+  background-color: #313131;
+  height: 80px;
+}
+
+header .container {
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  height: 100%;
+
+  /* justify-content:flex-start; */
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+}
+
+/* h1 {
+  /* margin-top: auto;
+  margin-bottom: auto;
+  text-align: left; */
+
+img.logo {
+  height: 60px;
+  width: 300px;
+}
+
+/* .header-list {
+   margin-left: auto;
+} */
+
+.header-list ul {
+  display: flex;
+  /* justify-content: flex-end; */
+  /* align-items: center; */
+  list-style: none;
+  gap: 70px;
+}
+
+.header-list li {
+  /* width: auto; */
+  color: #f6f4f2;
+  /* padding:25px 35px; */
+}
+
+.header-list a, a:visited {
+  color: #f6f4f2;
+}
+
+.key{
+  height: 756px;
+  width: 100%;
+  background-image:url("/株式会社尾佐知/img/background.jpg");
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* .slider-items {
+
+  width:100%;
+  background-image: url(img/background.jpg);
+  background-size: cover;
+
+}
+
+.slider-items img {
+  height:535px;
+  width:803px;
+}
+
+
+.slider-nav{
+ height: 341px;
+}
+
+.slider-nav img{
+  height: 263px;
+  width: 395px;
+  opacity: 0.6;
+
+} */
+
+ .slider .slide img {
+  width: 1029.6px;
+  height: auto;
+ }
+ .slide img {
+  transform: scale(0.7);
+  transition: transform .3s;
+  opacity: 0.75;
+}
+.slide.slick-center img {
+  transform: scale(1);
+  opacity: 1;
+
+}
+
+
+
+.philosophy {
+  display: flex;
+  height: 577px;
+  width: 100%;
+  writing-mode: vertical-rl;
+  align-items: center;
+  justify-content:center;
+  background-image: url(/株式会社尾佐知/img/philosofy.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.teikyorinen {
+  background-image: url(/株式会社尾佐知/img/manaita.png);
+  background-size: cover;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 545px;
+  width: 800px;
+  align-content: center;
+}
+
+.ptitle h2 {
+  font-size: 40px;
+  font-weight: normal;
+  margin-left: 80px;
+  letter-spacing: 0.1em;
+}
+
+.ptext p {
+  font-size: 16px;
+  letter-spacing: 0.3em;
+  line-height: 33px;
+}
+
+.restaurant {
+  height: 894px;
+  width: 100%;
+  background-color: #313131;
+  color: #f6f4f2;
+  align-content: center;
+}
+
+.restaurant h3{
+  font-size: 32px;
+  margin-bottom:12px;
+}
+
+.restaurant  p{
+  margin-bottom:12px;
+  line-height: 23px;
+}
+
+.tori {
+  display: flex;
+  height: 200px;
+  width: 790px;
+  margin:auto;
+  margin-bottom: 70px;
+}
+
+.toribunsyo{
+  height:148px;
+  width:534px;
+}
+
+.yakitori {
+  margin-left: 56px;
+}
+
+.yakitori img{
+  height: 200px;
+  width: 200px;
+}
+
+.osasa {
+  display: flex;
+  height: 200px;
+  width: 790px;
+  margin:auto;
+  margin-bottom: 70px;
+}
+
+.kappou {
+  height: 200px;
+  width: 200px;
+  margin-right: 56px;
+}
+
+.kappou img{
+  height: 200px;
+  width: 200px;
+}
+
+.osasabunsyo{
+  height:160px;
+  width:534px;
+}
+
+
+.yone {
+  display: flex;
+  height: 200px;
+  width: 790px;
+  margin:auto;
+}
+
+.yonebunsyo {
+  width: 534px;
+  height: 156px;
+}
+
+.teisyoku {
+  height: 200px;
+  width: 200px;
+  margin-left: 56px;
+}
+
+.teisyoku img{
+  height: 200px;
+  width: 200px;
+}
+
+.information img {
+  height: 279px;
+  width: 404px;
+}
+
+.information {
+  height:504px;
+  background-color: #f6f4f2;
+  width:100%;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+
+}
+
+.information h2{
+  font-size: 40px;
+  margin-bottom:9px;
+}
+
+.information p{
+  margin-top:23px;
+}
+.corporate {
+  text-align: center;
+  color: #000000;
+}
+
+.recruit {
+  text-align: center;
+  color: #000000;
+}
+.recruit::before{
+  content:"";
+  position:absolute;
+  left:50%;
+  background: #313131;
+  width:1px;
+  height:364px;
+}
+
+footer {
+  height: 190px;
+  background-color: #313131;
+  text-align: center;
+  color: #f6f4f2;
+}
+
+.footer-list ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-list li {
+  width: auto;
+  color: #f6f4f2;
+  padding-top: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+img.flogo {
+  width: 402px;
+  height: 80px;
+
+}
+
+h4 {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+}
