@@ -38,6 +38,10 @@ img.logo {
   width: 300px;
 }
 
+/* .header-list {
+   margin-left: auto;
+} */
+
 .header-list ul {
   display: flex;
   /* justify-content: flex-end; */
@@ -57,14 +61,43 @@ img.logo {
 }
 
 .key{
+  height: 600px;
   width: 100%;
-  background-image:url("background.jpg");
-  padding:30px 0;
+  background-image:url("/株式会社尾佐知/img/background.jpg");
+
 }
 
+/* .slider-items {
+
+  width:100%;
+  background-image: url(img/background.jpg);
+  background-size: cover;
+
+}
+
+.slider-items img {
+  height:535px;
+  width:803px;
+}
+
+
+.slider-nav{
+ height: 341px;
+}
+
+.slider-nav img{
+  height: 263px;
+  width: 395px;
+  opacity: 0.6;
+
+} */
+
  .slider .slide img {
-  width: 1029.6px;
+  /* width: 1029.6px; */
+  width:800px;
   height: auto;
+
+
  }
  .slide img {
   transform: scale(0.7);
@@ -77,20 +110,22 @@ img.logo {
 
 }
 
+
+
 .philosophy {
   display: flex;
+  height: 577px;
   width: 100%;
   writing-mode: vertical-rl;
   align-items: center;
   justify-content:center;
-  background-image: url(philosofy.png);
+  background-image: url(/株式会社尾佐知/img/philosofy.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding:30px 0;
 }
 
 .teikyorinen {
-  background-image: url(manaita.png);
+  background-image: url(/株式会社尾佐知/img/manaita.png);
   background-size: cover;
   display:flex;
   flex-direction: column;
@@ -115,11 +150,11 @@ img.logo {
 }
 
 .restaurant {
+  height: 894px;
   width: 100%;
   background-color: #313131;
   color: #f6f4f2;
   align-content: center;
-  padding:30px 0;
 }
 
 .restaurant h3{
@@ -134,12 +169,14 @@ img.logo {
 
 .tori {
   display: flex;
+  height: 200px;
   width: 790px;
   margin:auto;
   margin-bottom: 70px;
 }
 
 .toribunsyo{
+  height:148px;
   width:534px;
 }
 
@@ -154,16 +191,15 @@ img.logo {
 
 .osasa {
   display: flex;
+  height: 200px;
   width: 790px;
   margin:auto;
   margin-bottom: 70px;
 }
 
-.osasabunsyo{
-  width: 534px;
-}
-
 .kappou {
+  height: 200px;
+  width: 200px;
   margin-right: 56px;
 }
 
@@ -172,17 +208,27 @@ img.logo {
   width: 200px;
 }
 
+.osasabunsyo{
+  height:160px;
+  width:534px;
+}
+
+
 .yone {
   display: flex;
+  height: 200px;
   width: 790px;
   margin:auto;
 }
 
 .yonebunsyo {
   width: 534px;
+  height: 156px;
 }
 
 .teisyoku {
+  height: 200px;
+  width: 200px;
   margin-left: 56px;
 }
 
@@ -197,12 +243,13 @@ img.logo {
 }
 
 .information {
+  height:504px;
   background-color: #f6f4f2;
   width:100%;
   display: flex;
   justify-content:space-evenly;
   align-items: center;
-  padding:30px 0;
+
 }
 
 .information h2{
@@ -232,6 +279,7 @@ img.logo {
 }
 
 footer {
+  height: 190px;
   background-color: #313131;
   text-align: center;
   color: #f6f4f2;
@@ -247,6 +295,7 @@ footer {
 .footer-list li {
   width: auto;
   color: #f6f4f2;
+  padding-top: 25px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -258,5 +307,89 @@ img.flogo {
 }
 
 h4 {
+  margin-top: auto;
+  margin-bottom: auto;
   text-align: center;
 }
+
+.kigyoupage h2{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.company-list table{
+  width:50%;
+  margin: 40px auto;
+}
+
+.company-list th,td{
+  border:1px solid #313131;
+  background-color: #b8b8b8; 
+}
+
+.company-list th{
+  text-align: center;
+}
+
+.company-list td{
+  background-color: #eeeeee; 
+  text-align: center;
+}
+
+.saiyoupage{
+  padding-bottom:50px;
+}
+.saiyoupage h2{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.saiyoupage p{
+  font-size:20px;
+  color: #6e6e6e;
+  text-align: center;
+
+}
+
+.saiyoupage h3{
+  font-size:30px;
+  color:#313131;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.saiyou-list table{
+  width:35%;
+  margin: 40px auto;
+}
+
+.saiyou-list th,td{
+  border:1px solid #313131;
+  background-color: #b8b8b8; 
+}
+
+.saiyou-list th{
+  text-align:center;
+}
+
+.saiyou-list td{
+  background-color: #eeeeee; 
+  text-align: left;
+  padding-left: 10px;
+}
+
+.saiyou-list p{
+  text-align: left;
+  font-size: 16px;
+  color: #313131;
+  padding-top: 5px;
+}
+
+.saiyoupage li{
+    margin-left:50px;
+    list-style: circle;
+}
+
+@media screen and (min-width: 480px) {}
