@@ -109,8 +109,6 @@ img.logo {
 
 }
 
-
-
 .philosophy {
   display: flex;
   width: 100%;
@@ -132,7 +130,7 @@ img.logo {
   height: 545px;
   width: 800px;
   align-content: center;
-  margin:30px 0;
+  margin-top:20px;
 }
 
 .ptitle h2 {
@@ -153,6 +151,7 @@ img.logo {
   background-color: #313131;
   color: #f6f4f2;
   align-content: center;
+  padding:20px 0;
 }
 
 .restaurant h3{
@@ -270,10 +269,12 @@ img.logo {
 }
 
 footer {
+  
   height: 190px;
   background-color: #313131;
   text-align: center;
   color: #f6f4f2;
+  padding-top:20px;
 }
 
 img.flogo {
@@ -282,8 +283,8 @@ img.flogo {
 }
 
 h4 {
-  margin-top: auto;
-  margin-bottom: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
