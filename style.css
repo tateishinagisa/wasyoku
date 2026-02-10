@@ -151,7 +151,7 @@ img.logo {
   background-color: #313131;
   color: #f6f4f2;
   align-content: center;
-  padding:20px 0;
+  padding:40px 0;
 }
 
 .restaurant h3{
@@ -295,6 +295,7 @@ h4 {
 }
 
 .company-list table{
+  border-collapse: collapse; 
   width:50%;
   margin: 40px auto;
 }
@@ -337,6 +338,7 @@ h4 {
 }
 
 .saiyou-list table{
+  border-collapse: collapse; 
   width:35%;
   margin: 40px auto;
 }
