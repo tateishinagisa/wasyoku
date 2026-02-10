@@ -70,7 +70,7 @@ img.logo {
 /* .slider-items {
 
   width:100%;
-  background-image: url(background.jpg);
+  background-image: url("background.jpg");
   background-size: cover;
 
 }
@@ -117,13 +117,13 @@ img.logo {
   writing-mode: vertical-rl;
   align-items: center;
   justify-content:center;
-  background-image: url(philosofy.png);
+  background-image: url("philosofy.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .teikyorinen {
-  background-image: url(manaita.png);
+  background-image: url("manaita.png");
   background-size: cover;
   display:flex;
   flex-direction: column;
