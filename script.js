@@ -1,6 +1,6 @@
 $('.slider').slick({
   autoplay: true,
-	dots: true,
+	dots: false,
 	arrows: true,
 	variableWidth: true, //左右のスライドを見せるために必要
 	centerMode: true, //スライドを中心に寄せる
