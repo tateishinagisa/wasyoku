@@ -29,8 +29,8 @@
 
     display: block;
 
-    width: 20px;
-    height: 20px;
+    width: 100px;
+    height: 100px;
     padding: 0;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
@@ -81,11 +81,11 @@
 
 .slick-prev
 {
-    left: 325px;
+    left: 4%;
 }
 [dir='rtl'] .slick-prev
 {
-    right: 22%;
+    right: 2%;
     left: auto;
 }
 .slick-prev:before
@@ -111,12 +111,12 @@
 
 .slick-next
 {
-    right: 22%;
+    right: 2%;
 }
 [dir='rtl'] .slick-next
 {
     right: auto;
-    left: 18%;
+    left: 4%;
 }
 .slick-next:before
 {
