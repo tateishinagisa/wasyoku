@@ -132,6 +132,7 @@ img.logo {
   height: 545px;
   width: 800px;
   align-content: center;
+  margin:auto 0;
 }
 
 .ptitle h2 {
