@@ -38,10 +38,6 @@ img.logo {
   width: 300px;
 }
 
-/* .header-list {
-   margin-left: auto;
-} */
-
 .header-list ul {
   display: flex;
   /* justify-content: flex-end; */
@@ -63,34 +59,7 @@ img.logo {
 .key{
   width: 100%;
   background-image:url("background.jpg");
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
-
-/* .slider-items {
-
-  width:100%;
-  background-image: url(background.jpg);
-  background-size: cover;
-
-}
-
-.slider-items img {
-  height:535px;
-  width:803px;
-}
-
-
-.slider-nav{
- height: 341px;
-}
-
-.slider-nav img{
-  height: 263px;
-  width: 395px;
-  opacity: 0.6;
-
-} */
 
  .slider .slide img {
   width: 1029.6px;
@@ -106,8 +75,6 @@ img.logo {
   opacity: 1;
 
 }
-
-
 
 .philosophy {
   display: flex;
@@ -166,14 +133,12 @@ img.logo {
 
 .tori {
   display: flex;
-  height: 200px;
   width: 790px;
   margin:auto;
   margin-bottom: 70px;
 }
 
 .toribunsyo{
-  height:148px;
   width:534px;
 }
 
@@ -188,15 +153,16 @@ img.logo {
 
 .osasa {
   display: flex;
-  height: 200px;
   width: 790px;
   margin:auto;
   margin-bottom: 70px;
 }
 
+.osasabunsyo{
+  width: 534px;
+}
+
 .kappou {
-  height: 200px;
-  width: 200px;
   margin-right: 56px;
 }
 
@@ -205,27 +171,17 @@ img.logo {
   width: 200px;
 }
 
-.osasabunsyo{
-  height:160px;
-  width:534px;
-}
-
-
 .yone {
   display: flex;
-  height: 200px;
   width: 790px;
   margin:auto;
 }
 
 .yonebunsyo {
   width: 534px;
-  height: 156px;
 }
 
 .teisyoku {
-  height: 200px;
-  width: 200px;
   margin-left: 56px;
 }
 
