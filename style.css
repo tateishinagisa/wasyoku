@@ -63,14 +63,14 @@ img.logo {
 .key{
   height: 600px;
   width: 100%;
-  background-image:url("/株式会社尾佐知/img/background.jpg");
+  background-image:url("background.jpg");
 
 }
 
 /* .slider-items {
 
   width:100%;
-  background-image: url(img/background.jpg);
+  background-image: url(background.jpg);
   background-size: cover;
 
 }
@@ -93,7 +93,6 @@ img.logo {
 } */
 
  .slider .slide img {
-  /* width: 1029.6px; */
   width:800px;
   height: auto;
 
@@ -114,18 +113,17 @@ img.logo {
 
 .philosophy {
   display: flex;
-  height: 577px;
   width: 100%;
   writing-mode: vertical-rl;
   align-items: center;
   justify-content:center;
-  background-image: url(/株式会社尾佐知/img/philosofy.png);
+  background-image: url(philosofy.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .teikyorinen {
-  background-image: url(/株式会社尾佐知/img/manaita.png);
+  background-image: url(manaita.png);
   background-size: cover;
   display:flex;
   flex-direction: column;
@@ -150,7 +148,6 @@ img.logo {
 }
 
 .restaurant {
-  height: 894px;
   width: 100%;
   background-color: #313131;
   color: #f6f4f2;
@@ -169,14 +166,12 @@ img.logo {
 
 .tori {
   display: flex;
-  height: 200px;
   width: 790px;
   margin:auto;
   margin-bottom: 70px;
 }
 
 .toribunsyo{
-  height:148px;
   width:534px;
 }
 
@@ -191,7 +186,6 @@ img.logo {
 
 .osasa {
   display: flex;
-  height: 200px;
   width: 790px;
   margin:auto;
   margin-bottom: 70px;
@@ -209,25 +203,21 @@ img.logo {
 }
 
 .osasabunsyo{
-  height:160px;
   width:534px;
 }
 
-
 .yone {
   display: flex;
-  height: 200px;
   width: 790px;
   margin:auto;
 }
 
 .yonebunsyo {
   width: 534px;
-  height: 156px;
 }
 
 .teisyoku {
-  height: 200px;
+
   width: 200px;
   margin-left: 56px;
 }
@@ -285,25 +275,9 @@ footer {
   color: #f6f4f2;
 }
 
-.footer-list ul {
-  display: flex;
-  list-style: none;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer-list li {
-  width: auto;
-  color: #f6f4f2;
-  padding-top: 25px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 img.flogo {
   width: 402px;
   height: 80px;
-
 }
 
 h4 {
